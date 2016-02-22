@@ -1,0 +1,14 @@
+#chat {
+    display: flex;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: #955F79;
+}
