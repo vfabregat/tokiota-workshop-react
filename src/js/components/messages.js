@@ -17,7 +17,6 @@ var Messages = React.createClass({
 			<div id="messages">
 				{
 					this.props.messages.map(function(message, i){
-                        console.log(message);
 						return <Message key={i} text={message.text} username={message.username}/>;
 					})
 				}
